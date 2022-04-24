@@ -6,7 +6,7 @@ title:  "Welcome to this Homepage"
 **Latest Anouncement**
 
 {% for post in site.posts limit:1 %}
-**[{{ post.title }}]({{ post.url }})**:
+**[:warning: {{ post.title }}]({{ post.url }})**:
     
 > {{ post.excerpt }}
 
