@@ -9,3 +9,6 @@ This calendar is build using an external service/feature. It is provided by open
     frameborder="1" height="600px" width="100%"></iframe>
 
 K thanks bye
+
+
+{% include menu.md %}
