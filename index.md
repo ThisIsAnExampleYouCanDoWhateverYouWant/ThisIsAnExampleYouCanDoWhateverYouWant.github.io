@@ -15,8 +15,6 @@ title:  "Welcome to this Homepage"
 
 ---
 
----
-
 I did it in 30 minutes, so please don't judge.
 Here is some **bold** text and I could also add some [example](https://www.example.com) links. Embedding pictures and videos would work as well.
 
