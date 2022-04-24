@@ -1,0 +1,11 @@
+{
+  "url": "https://ThisIsAnExampleYouCanDoWhateverYouWant.github.io/calendar.ics",
+  "title": "My example calendar",
+  "target": "_blank",
+  "tabs": [
+    "month",
+    "week",
+    "day",
+    "agenda"
+  ]
+}
