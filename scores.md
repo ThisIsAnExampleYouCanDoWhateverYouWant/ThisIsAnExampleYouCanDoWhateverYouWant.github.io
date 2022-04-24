@@ -12,3 +12,21 @@ title: Scoreboard
 | 4    | ApplePie1997  | 1     |
 
 Scores were last updated: **Never**
+
+
+
+<table>
+  {% for row in site.data.scores %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
