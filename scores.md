@@ -22,3 +22,5 @@ title: Scoreboard
 
 
 Scores were last updated: **Never**
+
+{% include menu.md %}
