@@ -9,3 +9,5 @@ All anoucements:
   > {{ post.excerpt }}
 
 {% endfor %}
+
+{% include menu.md %}
