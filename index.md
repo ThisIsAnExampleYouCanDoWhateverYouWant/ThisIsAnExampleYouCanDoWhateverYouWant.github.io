@@ -22,9 +22,4 @@ Here is some **bold** text and I could also add some [example](https://www.examp
 
 Usually there should be space for a nice menu... but I do not have time to make it nice so here we go:
 
-1. [about]({% link about.md %})
-2. [calendar]({% link calendar.md %})
-3. [scoreboard]({% link scores.md %})
-4. [anouncements]({% link anounce.md %})
-
-
+{% include menu.md %}
