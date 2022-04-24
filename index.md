@@ -1,16 +1,19 @@
 ---
-layout: post
 title:  "Welcome to this Homepage"
 ---
 
 
 **Latest Anouncement**
 {% for post in site.posts limit:1 %}
-    <a href="{{ post.url }}">{{ post.title }}</a>:
+    **[{{ post.title }}]({{ post.url }})**:
     
     {{ post.excerpt }}
+    ---
+    
 {% endfor %}
 
+
+---
 
 ---
 
